@@ -1,0 +1,118 @@
+.task-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.task-title {
+  display: flex;
+  align-items: center;
+}
+
+.task-icon {
+  color: #e91e63;
+  font-size: 36px;
+  margin-right: 10px;
+}
+
+.task-title-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.task-header-left h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.subheading {
+  color: #6c757d;
+  font-size: 14px;
+}
+
+.task-header-left span {
+  color: #6c757d;
+}
+
+.task-header-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.new-task-button, .refresh-button {
+  background-color: #ffeb3b;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.search-input {
+  padding: 8px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+.task-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.task-table th, .task-table td {
+  border: 1px solid #dee2e6;
+  padding: 8px;
+  text-align: left;
+}
+
+.task-table th {
+  background-color: #f8f9fa;
+}
+
+.task-table a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.task-table a:hover {
+  text-decoration: underline;
+}
+
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border-top: 1px solid #dee2e6;
+}
+
+.pagination button {
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.records-per-page {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-right: auto;
+}
+
+.records-per-page input {
+  width: 50px;
+  height: 70px;
+  text-align: center;
+}
+
+.arrow-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
